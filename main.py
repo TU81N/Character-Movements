@@ -5,7 +5,7 @@ import pygame, sys
 
 #Constants
 WIDTH, HEIGHT = 400, 400
-TITLE = "Smooth Movement"
+TITLE = "Movement by TUHIN"
 
 #pygame initialization
 pygame.init()
@@ -77,7 +77,7 @@ while True:
             if event.key == pygame.K_DOWN:
                 player.down_pressed = False
         
-    #Draw
+    #Drawing
     win.fill((12, 24, 36))  
     player.draw(win)
 
